@@ -1,0 +1,13 @@
+.colortexts {
+    width: 60%!important;
+    position: absolute;
+    right: 0;
+    top: 70vh;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.colortexts_active {
+    opacity: 1;
+    transition: opacity 1s;
+}

@@ -1,0 +1,4 @@
+.help_opened {
+    transform: translateY(0);
+    transition: transform 0.3s;
+}

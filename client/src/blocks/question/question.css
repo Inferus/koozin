@@ -1,0 +1,18 @@
+.question {
+    font-size: 14px;
+    font-weight: 600;
+    color: #FBF9F6;
+    padding: 1px 8px;
+    border: solid 1px #FBF9F6;
+    position: fixed;
+    top: 70px;
+    right: 16px;
+    z-index: 5;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.question_dark {
+    color: #161616;
+    border: solid 1px #161616;
+}

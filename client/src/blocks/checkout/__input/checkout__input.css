@@ -1,0 +1,8 @@
+.checkout__input {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #FBF9F6;
+    margin-bottom: 16px;
+    color: #FBF9F6;
+}

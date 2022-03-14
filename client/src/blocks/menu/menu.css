@@ -1,0 +1,5 @@
+.menu{
+    
+    transform: translateX(-300%);
+    transition: all 0.3s ease;
+}

@@ -1,0 +1,7 @@
+.carousels {
+    width: 100%!important;
+    overflow: visible!important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

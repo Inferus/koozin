@@ -1,0 +1,6 @@
+.menu_opened{
+    display: flex;
+    transform: translateX(0);
+    transition: all 0.3s ease;
+    z-index: 100000;
+}

@@ -1,0 +1,23 @@
+.stripe {
+    width: 24%;
+    border-radius: 4px;
+    height: 4px;
+    background: #f4f4f4;
+}
+
+.stripe2 {
+    width: 12%;
+    border-radius: 4px;
+    height: 4px;
+    background: #f4f4f4;
+}
+
+.stripe_active {
+    width: 49%;
+    background: #ED5A51;
+}
+
+.stripe2_active {
+    width: 49%;
+    background: #ED5A51;
+}

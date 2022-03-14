@@ -1,0 +1,15 @@
+.header__link{
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.15px;
+    color: black;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 480px) {
+    .header__link{
+        display: none;
+    }
+}

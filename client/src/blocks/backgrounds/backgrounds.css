@@ -1,0 +1,45 @@
+.backgrounds {
+    display: flex;
+}
+
+.backgrounds-black {
+    background-color: #161616;
+    transition: background-color 0.5s;
+}
+.backgrounds-white {
+    
+    transition: background-color 0.5s;
+    background: radial-gradient(97.81% 60.54% at 50% 39%, rgb(255, 255, 255) 48%, #727171 98.85%);
+}
+
+.backgrounds-grey {
+    background-color: #36363D;
+    transition: background-color 0.5s;
+}
+
+.backgrounds-apricot {
+    background-color: #DDA081;
+    transition: background-color 0.5s;
+}
+
+.backgrounds-ibiza {
+    background-color: #104B6D;
+    transition: background-color 0.5s;
+}
+
+.backgrounds-hea {
+    background-color: #91AFE6;
+    transition: background-color 0.5s;
+}
+
+.backgrounds-car {
+    background-color: #59A1A3;
+    transition: background-color 0.5s;
+}
+.backgrounds-pop {
+    background-color: #860F14;
+    transition: background-color 0.5s;
+}
+
+
+

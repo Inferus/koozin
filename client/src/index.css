@@ -1,0 +1,123 @@
+@import url(./fonts/Inter/Inter.css);
+@import url(./fonts/Raleway/Raleway.css);
+@import url(./blocks/header/header.css);
+@import url(./blocks/header/__left/header__left.css);
+@import url(./blocks/header/__logo/header__logo.css);
+@import url(./blocks/header/__menu-button/header__menu-button.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__cart-button/header__cart-button.css);
+@import url(./blocks/popup/popup.css);
+@import url(./blocks/popup/_opened/popup_opened.css);
+@import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__number/popup__number.css);
+@import url(./blocks/popup/__title/popup__title.css);
+@import url(./blocks/popup/__text/popup__text.css);
+@import url(./blocks/menu/menu.css);
+@import url(./blocks/menu/_opened/menu_opened.css);
+@import url(./blocks/basket/basket.css);
+@import url(./blocks/basket/_opened/basket_opened.css);
+@import url(./blocks/carousels/carousels.css);
+@import url(./blocks/slidecolor/slidecolor.css);
+@import url(blocks/backgrounds/backgrounds.css);
+@import url(./blocks/colortexts/colortexts.css);
+@import url(./blocks/glitch/glitch.css);
+@import url(./blocks/color-changer/color-changer.css);
+@import url(./blocks/color-changer/_hide/color-changer_hide.css);
+@import url(./blocks/color-changer/__button-hider/color-changer__button-hider.css);
+@import url(./blocks/color-changer/__item/color-changer__item.css);
+@import url(./blocks/stripe/stripe.css);
+@import url(./blocks/deliveryBlock/deliveryBlock.css);
+@import url(./blocks/deliveryBlock/__title/deliveryBlock__title.css);
+@import url(./blocks/deliveryBlock/__redText/deliveryBlock__redText.css);
+@import url(./blocks/deliveryBlock/__subtitle/deliveryBlock__subtitle.css);
+@import url(./blocks/deliveryBlock/__text/deliveryBlock__text.css);
+@import url(./blocks/question/question.css);
+@import url(./blocks/help/help.css);
+@import url(./blocks/help/_opened/help_opened.css);
+@import url(./blocks/help/__title/help__title.css);
+@import url(./blocks/help/__text/help__text.css);
+@import url(./blocks/checkout/checkout.css);
+@import url(./blocks/checkout/__red-box/checkout__red-box.css);
+@import url(./blocks/checkout/__red-box-title/checkbox__red-box-title.css);
+@import url(./blocks/checkout/__red-box-row/checkout__red-box-row.css);
+@import url(./blocks/checkout/__red-box-subtitle/checkbox__red-box-subtitle.css);
+@import url(./blocks/checkout/__red-box-price/checkout__red-box-price.css);
+@import url(./blocks/checkout/__title/checkout__title.css);
+@import url(./blocks/checkout/__form/checkout__form.css);
+@import url(./blocks/checkout/__input/checkout__input.css);
+@import url(./blocks/popup/__btn/popup__btn.css);
+
+body{
+    font-family: 'Inter', 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    margin: 0!important;
+    /* background-color: #161616!important; */
+    color: white;
+    background: radial-gradient(97.81% 59.54% at 50% 50%, rgba(22, 22, 22, 0) -1900%, #161616 100%);
+   
+
+}
+*{
+    box-sizing: border-box;
+}
+.dot.selected{
+    height: 6px;
+    width: 18px;
+
+    
+    background: #6F6E6B;
+border-radius: 4px;
+}
+.popup__number{
+    color: #ED5A51;
+    
+}
+
+.short{
+    position: absolute;
+    height: 7px;
+width: 125px;
+bottom: 0;
+border-radius: 0px;
+background: #ED5A51;
+
+transition: all .3s ease;
+}
+.middle{
+    position: absolute;
+    height: 7px;
+width: 250px;
+bottom: 0;
+border-radius: 0px;
+background: #ED5A51;
+
+transition: all .3s ease;
+}
+
+.colCarousel{
+    position: absolute;
+    top: 20px;
+   
+}
+
+.backButton{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+}
+
+.blackMenuBtn{
+    background: url(./images/element/icon/BLACKMENU.svg) no-repeat;
+    border: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    .blackMenuBtn{
+        display: block;
+    }
+}

@@ -1,0 +1,4 @@
+.step1__left-arrow_hidden{
+    opacity: 0.5;
+    transition: opacity 0.3s;
+}
